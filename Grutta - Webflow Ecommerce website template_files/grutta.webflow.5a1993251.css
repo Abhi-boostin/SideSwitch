@@ -7429,6 +7429,13 @@ blockquote {
   .text-size-xlarge.large {
     font-size: 1.6rem;
   }
+  div.heading-6 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures it stays on top of other content */
+}
+
 
   .heading-6.large {
     font-size: 3.3rem;
